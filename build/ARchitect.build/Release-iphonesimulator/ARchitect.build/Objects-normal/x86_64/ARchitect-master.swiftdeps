@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "3be63c581cdd5f994d5832862172892e0995503cf2c45c07df057682caf02678"
+build_start_time: [1753943675, 470679000]
+build_end_time: [1753943676, 998222000]
+inputs:
+  "/Users/shabanya123/Documents/ios_app/ARchitect/App/ARchitectApp.swift": [1753942847, 261056012]
+  "/Users/shabanya123/Documents/ios_app/ARchitect/App/ContentView.swift": [1753943346, 820996705]
+  ? "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1753943334, 859420900]

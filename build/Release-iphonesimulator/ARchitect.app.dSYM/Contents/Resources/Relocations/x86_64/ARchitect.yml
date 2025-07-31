@@ -1,0 +1,35 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/shabanya123/Documents/ios_app/build/Release-iphonesimulator/ARchitect.app/ARchitect'
+relocations:
+  - { offset: 0x5C330, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewVMa', symObjAddr: 0x0, symBinAddr: 0x1000013C0, symSize: 0x10 }
+  - { offset: 0x5C344, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV7SwiftUI0C0AA4BodyAdEP_AGWT', symObjAddr: 0x10, symBinAddr: 0x1000013D0, symSize: 0x20 }
+  - { offset: 0x5C431, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x910, symBinAddr: 0x100001CD0, symSize: 0x40 }
+  - { offset: 0x5C445, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x950, symBinAddr: 0x100001D10, symSize: 0x40 }
+  - { offset: 0x5C459, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAI5ScaleOGGAA016_ForegroundStyleL0VyAA09TintShapeO0VGGAKyAA4FontVSgGG_AA4TextVA0_tGGAA14_PaddingLayoutVGACyxq_GAA0G0A2AA7_RzAA0gL0R_rlWl', symObjAddr: 0x990, symBinAddr: 0x100001D50, symSize: 0x70 }
+  - { offset: 0x5C46D, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV10imageScaleAA5ImageV0F0OvpACTKq', symObjAddr: 0xA00, symBinAddr: 0x100001DC0, symSize: 0x20 }
+  - { offset: 0x5C485, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV10imageScaleAA5ImageV0F0OvpACTkq', symObjAddr: 0xA20, symBinAddr: 0x100001DE0, symSize: 0x50 }
+  - { offset: 0x5C49D, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpACTKq', symObjAddr: 0xA70, symBinAddr: 0x100001E30, symSize: 0x20 }
+  - { offset: 0x5C4B5, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpACTkq', symObjAddr: 0xA90, symBinAddr: 0x100001E50, symSize: 0x30 }
+  - { offset: 0x5C4CD, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOe', symObjAddr: 0xAC0, symBinAddr: 0x100001E80, symSize: 0x20 }
+  - { offset: 0x5C4E1, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOy', symObjAddr: 0xB10, symBinAddr: 0x100001ED0, symSize: 0x20 }
+  - { offset: 0x5C6B7, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV7SwiftUI0C0AadEP05_makeC04view6inputsAD01_C7OutputsVAD11_GraphValueVyxG_AD01_C6InputsVtFZTW', symObjAddr: 0x860, symBinAddr: 0x100001C20, symSize: 0x10 }
+  - { offset: 0x5C6D3, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV7SwiftUI0C0AadEP05_makeC4List4view6inputsAD01_cG7OutputsVAD11_GraphValueVyxG_AD01_cG6InputsVtFZTW', symObjAddr: 0x870, symBinAddr: 0x100001C30, symSize: 0x10 }
+  - { offset: 0x5C6EF, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV7SwiftUI0C0AadEP14_viewListCount6inputsSiSgAD01_cgH6InputsV_tFZTW', symObjAddr: 0x880, symBinAddr: 0x100001C40, symSize: 0x10 }
+  - { offset: 0x5C83A, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV4bodyQrvg7SwiftUI0C0PAEE15navigationTitleyQrAE18LocalizedStringKeyVFQOyAgEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6VStackVyAE05TupleC0VyAgEE4fontyQrAE4FontVSgFQOyAgEE15foregroundStyleyQrqd__AE05ShapeW0Rd__lFQOyAgEE10imageScaleyQrAE5ImageV0Z0OFQOyA4__Qo__AE04TintxW0VQo__Qo__AE4TextVA13_tGG_Qo__Qo_yXEfU_', symObjAddr: 0x30, symBinAddr: 0x1000013F0, symSize: 0x160 }
+  - { offset: 0x5C8F7, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV4bodyQrvg7SwiftUI0C0PAEE15navigationTitleyQrAE18LocalizedStringKeyVFQOyAgEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6VStackVyAE05TupleC0VyAgEE4fontyQrAE4FontVSgFQOyAgEE15foregroundStyleyQrqd__AE05ShapeW0Rd__lFQOyAgEE10imageScaleyQrAE5ImageV0Z0OFQOyA4__Qo__AE04TintxW0VQo__Qo__AE4TextVA13_tGG_Qo__Qo_yXEfU_A14_yXEfU_', symObjAddr: 0x190, symBinAddr: 0x100001550, symSize: 0x6D0 }
+  - { offset: 0x5CA8A, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewV7SwiftUI0C0AadEP4body4BodyQzvgTW', symObjAddr: 0x890, symBinAddr: 0x100001C50, symSize: 0x80 }
+  - { offset: 0x5CBB7, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppV4bodyQrvg', symObjAddr: 0x0, symBinAddr: 0x100001F80, symSize: 0x120 }
+  - { offset: 0x5CC90, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppVAC7SwiftUI0B0AAWl', symObjAddr: 0x180, symBinAddr: 0x1000020F0, symSize: 0x30 }
+  - { offset: 0x5CCA4, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppVMa', symObjAddr: 0x1B0, symBinAddr: 0x100002120, symSize: 0x10 }
+  - { offset: 0x5CCB8, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppV7SwiftUI0B0AA4BodyAdEP_AD5ScenePWT', symObjAddr: 0x1C0, symBinAddr: 0x100002130, symSize: 0x20 }
+  - { offset: 0x5CCCC, size: 0x8, addend: 0x0, symName: '_$s9ARchitect11ContentViewVAC7SwiftUI0C0AAWl', symObjAddr: 0x220, symBinAddr: 0x100002150, symSize: 0x30 }
+  - { offset: 0x5CCE0, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI11WindowGroupVy9ARchitect11ContentViewVGACyxGAA5SceneAAWl', symObjAddr: 0x250, symBinAddr: 0x100002180, symSize: 0x40 }
+  - { offset: 0x5CD1B, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppV4bodyQrvg', symObjAddr: 0x0, symBinAddr: 0x100001F80, symSize: 0x120 }
+  - { offset: 0x5CD73, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppV4bodyQrvgAA11ContentViewVycfU_', symObjAddr: 0x120, symBinAddr: 0x1000020A0, symSize: 0x10 }
+  - { offset: 0x5CD9B, size: 0x8, addend: 0x0, symName: '_$s9ARchitect0A3AppV7SwiftUI0B0AadEP4body4BodyQzvgTW', symObjAddr: 0x130, symBinAddr: 0x1000020B0, symSize: 0x10 }
+  - { offset: 0x5CDDF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x150, symBinAddr: 0x1000020C0, symSize: 0x30 }
+  - { offset: 0x5CECE, size: 0x8, addend: 0x0, symName: '_$s9ARchitect19ResourceBundleClass33_DEFEAA934CB97ECF98FFD4D5FC13C8F3LLCfD', symObjAddr: 0x0, symBinAddr: 0x1000021D0, symSize: 0x20 }
+  - { offset: 0x5CF10, size: 0x8, addend: 0x0, symName: '_$s9ARchitect19ResourceBundleClass33_DEFEAA934CB97ECF98FFD4D5FC13C8F3LLCMa', symObjAddr: 0x20, symBinAddr: 0x1000021F0, symSize: 0x14 }
+  - { offset: 0x5CF2B, size: 0x8, addend: 0x0, symName: '_$s9ARchitect19ResourceBundleClass33_DEFEAA934CB97ECF98FFD4D5FC13C8F3LLCfD', symObjAddr: 0x0, symBinAddr: 0x1000021D0, symSize: 0x20 }
+...

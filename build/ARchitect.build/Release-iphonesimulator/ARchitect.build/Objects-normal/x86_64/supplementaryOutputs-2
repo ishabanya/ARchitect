@@ -1,0 +1,9 @@
+"/Users/shabanya123/Documents/ios_app/ARchitect/App/ContentView.swift":
+  dependencies: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect-master.d"
+  abi-baseline-json: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect.abi.json"
+  const-values: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect-master.swiftconstvalues"
+  swiftmodule: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect.swiftmodule"
+  diagnostics: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect-master.dia"
+  swiftdoc: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect.swiftdoc"
+  swiftsourceinfo: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect.swiftsourceinfo"
+  objc-header: "/Users/shabanya123/Documents/ios_app/build/ARchitect.build/Release-iphonesimulator/ARchitect.build/Objects-normal/x86_64/ARchitect-Swift.h"
