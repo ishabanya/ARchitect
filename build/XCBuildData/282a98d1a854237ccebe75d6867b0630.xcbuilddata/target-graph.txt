@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'ARchitect' in project 'ARchitect' (no dependencies)
