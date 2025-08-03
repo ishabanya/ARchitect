@@ -17,14 +17,14 @@ struct SimpleContentView: View {
             .padding()
             .navigationTitle("ARchitect")
             .navigationBarTitleDisplayMode(.large)
-            .sheet(isPresented: $showingRoomScanning) {
-                SimpleRoomScanningView()
+            .fullScreenCover(isPresented: $showingRoomScanning) {
+                RealRoomScanningView()
             }
-            .sheet(isPresented: $showingFurnitureCatalog) {
-                SimpleFurnitureCatalogView()
+            .fullScreenCover(isPresented: $showingFurnitureCatalog) {
+                RealFurniturePlacementView()
             }
-            .sheet(isPresented: $showingMeasurementTools) {
-                SimpleMeasurementToolsView()
+            .fullScreenCover(isPresented: $showingMeasurementTools) {
+                RealMeasurementView()
             }
             .sheet(isPresented: $showingAIOptimization) {
                 AIOptimizationView()

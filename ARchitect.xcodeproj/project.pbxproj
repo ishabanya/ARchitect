@@ -13,6 +13,10 @@
 		A1234567890ABCDE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDE8 /* Preview Assets.xcassets */; };
 		A1234567890ABCE11 /* SimpleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE12 /* SimpleContentView.swift */; };
 		A1234567890ABCE13 /* AIOptimizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE14 /* AIOptimizationView.swift */; };
+		A1234567890ABCE15 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE16 /* ARViewContainer.swift */; };
+		A1234567890ABCE17 /* RealRoomScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE18 /* RealRoomScanningView.swift */; };
+		A1234567890ABCE19 /* RealMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE20 /* RealMeasurementView.swift */; };
+		A1234567890ABCE21 /* RealFurniturePlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE22 /* RealFurniturePlacementView.swift */; };
 		A1234567890ABCDE9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEA /* ARKit.framework */; };
 		A1234567890ABCDEB /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEC /* MetalPerformanceShaders.framework */; };
 		A1234567890ABCDED /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEE /* RealityKit.framework */; };
@@ -32,6 +36,10 @@
 		A1234567890ABCDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1234567890ABCE12 /* SimpleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleContentView.swift; sourceTree = "<group>"; };
 		A1234567890ABCE14 /* AIOptimizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/Views/AIOptimizationView.swift"; sourceTree = "<group>"; };
+		A1234567890ABCE16 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/AR/ARViewContainer.swift"; sourceTree = "<group>"; };
+		A1234567890ABCE18 /* RealRoomScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealRoomScanningView.swift; sourceTree = "<group>"; };
+		A1234567890ABCE20 /* RealMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMeasurementView.swift; sourceTree = "<group>"; };
+		A1234567890ABCE22 /* RealFurniturePlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealFurniturePlacementView.swift; sourceTree = "<group>"; };
 		A1234567890ABCDEA /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDEC /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDEE /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
@@ -68,6 +76,7 @@
 			children = (
 				A1234567890ABCE10 /* App */,
 				A1234567890ABCE14 /* AIOptimizationView.swift */,
+				A1234567890ABCE16 /* ARViewContainer.swift */,
 				A1234567890ABCDE6 /* Assets.xcassets */,
 				A1234567890ABCDFF /* Preview Content */,
 			);
@@ -121,6 +130,9 @@
 				A1234567890ABCDE2 /* ARchitectApp.swift */,
 				A1234567890ABCDE4 /* ContentView.swift */,
 				A1234567890ABCE12 /* SimpleContentView.swift */,
+				A1234567890ABCE18 /* RealRoomScanningView.swift */,
+				A1234567890ABCE20 /* RealMeasurementView.swift */,
+				A1234567890ABCE22 /* RealFurniturePlacementView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -198,6 +210,10 @@
 				A1234567890ABCDE3 /* ContentView.swift in Sources */,
 				A1234567890ABCE11 /* SimpleContentView.swift in Sources */,
 				A1234567890ABCE13 /* AIOptimizationView.swift in Sources */,
+				A1234567890ABCE15 /* ARViewContainer.swift in Sources */,
+				A1234567890ABCE17 /* RealRoomScanningView.swift in Sources */,
+				A1234567890ABCE19 /* RealMeasurementView.swift in Sources */,
+				A1234567890ABCE21 /* RealFurniturePlacementView.swift in Sources */,
 				A1234567890ABCDE1 /* ARchitectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

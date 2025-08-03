@@ -2,6 +2,20 @@ import Foundation
 import ARKit
 import simd
 
+// MARK: - AR Measurement (for simple distance measurements)
+
+public struct ARMeasurement: Identifiable, Codable {
+    public let id: UUID
+    public let position: simd_float3
+    public let timestamp: Date
+    
+    public init(id: UUID = UUID(), position: simd_float3, timestamp: Date = Date()) {
+        self.id = id
+        self.position = position
+        self.timestamp = timestamp
+    }
+}
+
 // MARK: - Measurement Data Models
 
 /// Represents a single measurement in 3D AR space
