@@ -11,6 +11,8 @@
 		A1234567890ABCDE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDE4 /* ContentView.swift */; };
 		A1234567890ABCDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDE6 /* Assets.xcassets */; };
 		A1234567890ABCDE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDE8 /* Preview Assets.xcassets */; };
+		A1234567890ABCE11 /* SimpleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE12 /* SimpleContentView.swift */; };
+		A1234567890ABCE13 /* AIOptimizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCE14 /* AIOptimizationView.swift */; };
 		A1234567890ABCDE9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEA /* ARKit.framework */; };
 		A1234567890ABCDEB /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEC /* MetalPerformanceShaders.framework */; };
 		A1234567890ABCDED /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEE /* RealityKit.framework */; };
@@ -28,6 +30,8 @@
 		A1234567890ABCDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1234567890ABCDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1234567890ABCDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1234567890ABCE12 /* SimpleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleContentView.swift; sourceTree = "<group>"; };
+		A1234567890ABCE14 /* AIOptimizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/Views/AIOptimizationView.swift"; sourceTree = "<group>"; };
 		A1234567890ABCDEA /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDEC /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDEE /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
@@ -59,40 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1234567890ABCE02 = {
-			isa = PBXGroup;
-			children = (
-				A1234567890ABCDFE /* ARchitect */,
-				A1234567890ABCE01 /* Frameworks */,
-				A1234567890ABCE00 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A1234567890ABCE00 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1234567890ABCD00 /* ARchitect.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A1234567890ABCDFE /* ARchitect */ = {
 			isa = PBXGroup;
 			children = (
 				A1234567890ABCE10 /* App */,
+				A1234567890ABCE14 /* AIOptimizationView.swift */,
 				A1234567890ABCDE6 /* Assets.xcassets */,
 				A1234567890ABCDFF /* Preview Content */,
 			);
 			path = ARchitect;
-			sourceTree = "<group>";
-		};
-		A1234567890ABCE10 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				A1234567890ABCDE2 /* ARchitectApp.swift */,
-				A1234567890ABCDE4 /* ContentView.swift */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		A1234567890ABCDFF /* Preview Content */ = {
@@ -101,6 +80,14 @@
 				A1234567890ABCDE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1234567890ABCE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCD00 /* ARchitect.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A1234567890ABCE01 /* Frameworks */ = {
@@ -117,6 +104,25 @@
 				A1234567890ABCDFA /* MultipeerConnectivity.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCE02 = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDFE /* ARchitect */,
+				A1234567890ABCE01 /* Frameworks */,
+				A1234567890ABCE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1234567890ABCE10 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDE2 /* ARchitectApp.swift */,
+				A1234567890ABCDE4 /* ContentView.swift */,
+				A1234567890ABCE12 /* SimpleContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1234567890ABCDE3 /* ContentView.swift in Sources */,
+				A1234567890ABCE11 /* SimpleContentView.swift in Sources */,
+				A1234567890ABCE13 /* AIOptimizationView.swift in Sources */,
 				A1234567890ABCDE1 /* ARchitectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARchitect/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K6T6CC9UCM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "ARchitect needs camera access for AR features";
@@ -333,7 +341,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARchitect/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K6T6CC9UCM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "ARchitect needs camera access for AR features";
@@ -364,7 +372,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
