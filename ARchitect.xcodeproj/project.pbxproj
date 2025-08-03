@@ -24,10 +24,10 @@
 
 /* Begin PBXFileReference section */
 		A1234567890ABCD00 /* ARchitect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARchitect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1234567890ABCDE2 /* ARchitectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARchitect/App/ARchitectApp.swift; sourceTree = "<group>"; };
-		A1234567890ABCDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARchitect/App/ContentView.swift; sourceTree = "<group>"; };
-		A1234567890ABCDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ARchitect/Assets.xcassets; sourceTree = "<group>"; };
-		A1234567890ABCDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "ARchitect/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1234567890ABCDE2 /* ARchitectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARchitectApp.swift; sourceTree = "<group>"; };
+		A1234567890ABCDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1234567890ABCDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1234567890ABCDEA /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDEC /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDEE /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
@@ -37,7 +37,6 @@
 		A1234567890ABCDF6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDF8 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		A1234567890ABCDFA /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
-		A1234567890ABCDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ARchitect/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,24 +59,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1234567890ABCDFE /* ARchitect */ = {
+		A1234567890ABCE02 = {
 			isa = PBXGroup;
 			children = (
-				A1234567890ABCDE2 /* ARchitectApp.swift */,
-				A1234567890ABCDE4 /* ContentView.swift */,
-				A1234567890ABCDE6 /* Assets.xcassets */,
-				A1234567890ABCDFB /* Info.plist */,
-				A1234567890ABCDFF /* Preview Content */,
+				A1234567890ABCDFE /* ARchitect */,
+				A1234567890ABCE01 /* Frameworks */,
+				A1234567890ABCE00 /* Products */,
 			);
-			path = ARchitect;
-			sourceTree = "<group>";
-		};
-		A1234567890ABCDFF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A1234567890ABCDE8 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		A1234567890ABCE00 /* Products */ = {
@@ -86,6 +74,33 @@
 				A1234567890ABCD00 /* ARchitect.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDFE /* ARchitect */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCE10 /* App */,
+				A1234567890ABCDE6 /* Assets.xcassets */,
+				A1234567890ABCDFF /* Preview Content */,
+			);
+			path = ARchitect;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCE10 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDE2 /* ARchitectApp.swift */,
+				A1234567890ABCDE4 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		A1234567890ABCE01 /* Frameworks */ = {
@@ -102,15 +117,6 @@
 				A1234567890ABCDFA /* MultipeerConnectivity.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A1234567890ABCE02 = {
-			isa = PBXGroup;
-			children = (
-				A1234567890ABCDFE /* ARchitect */,
-				A1234567890ABCE01 /* Frameworks */,
-				A1234567890ABCE00 /* Products */,
-			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
