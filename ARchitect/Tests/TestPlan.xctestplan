@@ -1,0 +1,66 @@
+{
+  "configurations" : [
+    {
+      "id" : "default",
+      "name" : "Default Configuration",
+      "options" : {
+        "maximumTestExecutionTimeAllowance" : 300,
+        "testExecutionOrdering" : "random"
+      }
+    },
+    {
+      "id" : "performance",
+      "name" : "Performance Testing",
+      "options" : {
+        "maximumTestExecutionTimeAllowance" : 600,
+        "testExecutionOrdering" : "alphabetical",
+        "testTimeoutsEnabled" : true
+      }
+    },
+    {
+      "id" : "memory",
+      "name" : "Memory Testing",
+      "options" : {
+        "maximumTestExecutionTimeAllowance" : 900,
+        "testExecutionOrdering" : "alphabetical",
+        "testTimeoutsEnabled" : true
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "target" : {
+            "containerPath" : "container:ARchitect.xcodeproj",
+            "identifier" : "A1234567890ABCD07",
+            "name" : "ARchitect"
+          }
+        }
+      ]
+    },
+    "environmentVariableEntries" : [
+      {
+        "key" : "TEST_MODE",
+        "value" : "1"
+      },
+      {
+        "key" : "DISABLE_ANIMATIONS",
+        "value" : "1"
+      }
+    ],
+    "maximumTestExecutionTimeAllowance" : 300,
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ARchitect.xcodeproj",
+        "identifier" : "TestTargetID",
+        "name" : "ARchitectTests"
+      }
+    }
+  ],
+  "version" : 1
+}
